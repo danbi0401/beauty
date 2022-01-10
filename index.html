@@ -1,0 +1,307 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+	<title>V&A Beauty</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="V&A Beauty" /> 
+	<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    
+    <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link type="text/css" rel="stylesheet" href="layout.css" /> 
+    <link type="text/css" rel="stylesheet" href="main.css" />  
+	
+
+
+</head>
+
+<body class="main" state="main/index"> 
+
+
+<div class="header-top close subpage"> 
+	<div class="topban-btn off"><div class="left"><a href="" ><img src="images/hd-logo-w.png"  alt="V&amp;A Beauty" title="V&amp;A Beauty"   /></a></div><div class="right"><img src="images/hd-log-big.png"  alt="V&amp;A 로고" title="V&amp;A 로고"   /></div></div>
+</div>
+
+
+<div id="layerDim" class="dn"></div>
+<div id="optionViewLayer" class="layer_wrap dn"></div>
+<div id="wrap"> 
+	<div class="top_area"></div>
+	<div class="st-container" id="stContainter"> 
+		<div class="ly_overlay"></div>
+
+        <div id="header_wrap" state="main/index" class=" white-ver">
+            <header>
+                <div class="header_box">
+                    <div class="h_logo">
+                        <div class="white-logo main"><a href="" ><img src="images/hd-logo-2.png"  alt="상단 로고" title="상단 로고"   /></a></div> 
+                    </div> 
+                    
+                    <ul class="right_menu"> 
+                        <li class="cart">
+                            <a href="#"><span>장바구니</span>
+                            <em class="cart_count en-txt">0</em></a>
+
+                        </li>
+                        <li><a class="side_menu"><span>메뉴</span></a></li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+    
+
+
+
+        <nav>
+            <div class="bg"></div>
+            <div class="left_close"></div>
+            <div class="nav_bg_box">
+                <div class="nav_box">
+                    <div class="nav_iscroll_box">
+                        <div class="nav_content_box">
+                            <div class="ham-box"> 
+                                <div class="ham-sear">
+                                    <div class="layer_search_box">
+                                        <form name="frmSearchTop" id="frmSearchTop" action="../goods/goods_search.php" method="get">
+                                            <input type="hidden" name="adUrl" value=""/>
+                                            <fieldset>
+                                                <legend class="dis-no">검색하기</legend>
+                                                <dl>
+                                                    <dt><label for="sch" class="dis-no">검색</label></dt>
+                                                    <dd>
+                                                        <div class="keyword_box">
+                                                            <input type="search" maxlength="25" name="keyword" class="js_auto_focus" title="홈 릴렉싱 세트" placeholder="홈 릴렉싱 세트" id="sch" placeholder="검색어를 입력해주세요." autocomplete="off"/>
+                                                            <button type="button" class="bn_wrg dis-no" style="display:block">취소</button>
+                                                        </div>
+                                                    </dd>
+                                                </dl>
+                                            </fieldset>
+                                            <button type="submit" class="h_search_btn">검색</button>
+                                            <button type="button" class="h_search_close_btn ly_btn_close dis-no">닫기</button>
+                                        </form>
+                                    </div> 
+                                </div>
+        
+                                <div class="ham-gnb">
+                                    <ul class="ham-ul ham-ul01">
+                                        <li><a href="../goods/goods_list.php?cateCd=001001">Shop</a></li>
+                                        <li><a href="../main/html.php?htmid=proc/brandstory">Brand</a></li>
+                                        <li><a href="../board/list.php?bdId=inspiration">Inspiration</a></li>
+                                        <li><a href="../review/review_article.php">Reviews</a></li>
+                                        <li><a href="../board/list.php?bdId=promotion&period=current">Promotion</a></li>
+                                    </ul>
+                                    <ul class="ham-ul ham-ul03">
+                                        <li><a href="../member/login.php">로그인</a></li>
+                                        <li><a href="../mypage/index.php">마이페이지</a></li>
+                                        <li><a href="../main/html.php?htmid=proc/membership">등급 별 혜택</a></li>
+                                        <li><a href="../service/faq_list.php?category=00">고객센터</a></li>
+                                    </ul>
+                                </div>
+                                <div class="ham-sns">
+                                    <ul class="">
+                                        <li><a href="" target="_blank"><img width="13" src="images/footer_sns_m_insta.png" alt="sns"/></a></li> 
+                                        <li><a href="" target="_blank"><img width="15" src="images/footer_sns_m_youtube.png" alt="sns"/></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="quickbar fix-menu">
+            <ul>
+                <li class="on">
+                    <a href="#">
+                        <span>
+                            <img class="def" src="images/home.png">
+                            <img class="hov" src="images/home-hover.png">
+                        </span>
+                        홈
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>
+                            <img class="def" src="images/recent.png">
+                            <img class="hov" src="images/recent-hover.png">
+                        </span>
+                        최근 본 상품
+                    </a>
+                </li>
+                <li class="quick-shop">
+                    <a href="#">
+                        <span>
+                            <img class="def" src="images/shop.png">
+                            <img class="hov" src="images/shop-hover.png">
+                        </span>
+                        Shop
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>
+                            <img class="def" src="images/mypage.png">
+                            <img class="hov" src="images/mypage-hover.png">
+                        </span>
+                        마이페이지
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>
+                            <img class="def" src="images/cart.png">
+                            <img class="hov" src="images/cart-hover.png">
+                        </span>
+                        장바구니
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <div id="container">
+        <div id="contents_wrap"> 
+
+            <div class="main-content">
+                <div class="main-sec01">
+                    <div class="main-slide"> 
+
+                        <div  class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="" ><img src="images/thum_main_0102.jpg"  alt="앰플 코스터 스토리" title="앰플 코스터 스토리"   /></a>
+                                </div>
+                                
+                            </div>
+
+                        </div >
+                        
+
+                    </div>
+                </div>
+                <div class="main-sec text-center main-sec02">
+                    <h1>New&Best</h1>
+                    <div class="mu-grid">
+                        <div class="_goods_display_main">
+                            <div class="js_main_wrap_6_">
+                                <h3>메인 상품
+                                    <div class="more_btn_box">
+                                        <a class="main_more_btn2" href="">더보기</a>
+                                    </div>
+                                </h3>
+                                <ul class="main_prd_list goods_content6g">
+                                    <li class="goods_prd_item2  mu-goodslist img-ani bottom-top img-aniload">
+                                        <div class="goods_prd_item2_box">
+                                            <div class="goods_prd_img">
+                                                <div class="img_box">
+                                                    <a href="" target="_self">
+                                                        <div class="goods-bgimg">
+                                                            <img src="images/thum_main_0201_bg.jpg" alt="V&amp;A">
+                                                        </div>
+                                                        <div class="img"><img src="images/thum_main_0201.png" width="140" alt="안티옥시던트 래디언스 앰플" title="안티옥시던트 래디언스 앰플" class="middle"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="goods_prd_content">
+                                                <div class="goods_info_list">
+                                                    <a href="" target="_self">
+                                                        <ul class="goods_info_list">
+                                                            <li class="short_des">뮤지엄 아트워크를 입힌 패키지와 코스터를 받아보세요.</li>
+                                                            <li class="prd_name">안티옥시던트 래디언스 앰플</li>
+                                                            <li class="price">
+                                                                ￦52,000
+                                                            </li>
+                                                        </ul>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="goods_prd_item2  mu-goodslist img-ani bottom-top img-aniload">
+                                        <div class="goods_prd_item2_box">
+                                            <div class="goods_prd_img">
+                                                <div class="img_box">
+                                                    <a href="" target="_self">
+                                                        <div class="goods-bgimg">
+                                                            <img src="images/thum_main_0202_bg.jpg" alt="V&amp;A">
+                                                        </div>
+                                                        <div class="img"><img src="images/thum_main_0202.png" width="140" alt="안티옥시던트 래디언스 앰플" title="안티옥시던트 래디언스 앰플" class="middle"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="goods_prd_content">
+                                                <div class="goods_info_list">
+                                                    <a href="" target="_self">
+                                                        <ul class="goods_info_list">
+                                                            <li class="short_des">뮤지엄 아트워크를 입힌 패키지와 코스터를 받아보세요.</li>
+                                                            <li class="prd_name">안티옥시던트 래디언스 앰플</li>
+                                                            <li class="price">
+                                                                ￦52,000
+                                                            </li>
+                                                        </ul>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="goods_prd_item2  mu-goodslist img-ani bottom-top img-aniload">
+                                        <div class="goods_prd_item2_box">
+                                            <div class="goods_prd_img">
+                                                <div class="img_box">
+                                                    <a href="" target="_self">
+                                                        <div class="goods-bgimg">
+                                                            <img src="images/thum_main_0203_bg.jpg" alt="V&amp;A">
+                                                        </div>
+                                                        <div class="img"><img src="images/thum_main_0203.png" width="140" alt="센티드 바디 Gift Set [허베이셔스 페탈]" title="센티드 바디 Gift Set [허베이셔스 페탈]" class="middle"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="goods_prd_content">
+                                                <div class="goods_info_list">
+                                                    <a href="" target="_self">
+                                                        <ul class="goods_info_list">
+                                                            <li class="short_des">향과 결을 케어하는 감각적인 바디 워시&amp;로션 Gift Set</li>
+                                                            <li class="prd_name">센티드 바디 Gift Set [허베이셔스 페탈]</li>
+                                                            <li class="price">
+                                                                ￦76,000
+                                                            </li>
+                                                        </ul>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="gobtn-wr ">
+                            <a class="go-btn" href="">더 알아보기<img width="13" src="images/btn-more-1.png" alt="더보기"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+        
+    </div>
+    
+    <div id="footer">
+        <footer>
+            <div class="footer-menu dis-no">
+                <ul>
+                    <li><a href="../goods/goods_list.php?cateCd=001001001" class="">Shop</a></li>
+                    <li><a href="../main/html.php?htmid=proc/brandstory" class="">Brand</a></li>
+                    <li><a href="../board/list.php?bdId=inspiration" class="">Inspiration</a></li>
+                </ul>
+            </div>
+
+
+
+</body>
+</html>
